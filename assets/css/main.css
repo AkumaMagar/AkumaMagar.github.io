@@ -131,11 +131,11 @@ h6 {
   text-transform: uppercase;
   transition: 0.3s;
   color: #fff;
-  background: var(--color-primary);
+  background: #1a1919;
 }
 
 .page-header .cta-btn:hover {
-  background: #2cbc85;
+  background: #b20101;
 }
 
 /*--------------------------------------------------------------
@@ -148,7 +148,7 @@ h6 {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background: var(--color-primary);
+  background: #b20101;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -162,7 +162,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: #6c0101;
   color: #fff;
 }
 
@@ -585,7 +585,7 @@ h6 {
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
-  color: var(--color-primary);
+  color: #b20101;
 }
 
 .about .content ul {
@@ -704,6 +704,13 @@ h6 {
   }
 }
 
+.swiper-slide {
+  /* max-height: 900px; */
+}
+
+#contact{
+  margin-bottom: 22%;
+}
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
@@ -870,7 +877,7 @@ h6 {
 }
 
 .gallery-single .portfolio-info .btn-visit:hover {
-  background: #2cbc85;
+  background: #b20101;
 }
 
 .gallery-single .portfolio-description h2 {
@@ -1204,7 +1211,7 @@ h6 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--color-primary);
+  background: #b20101;
   z-index: -1;
 }
 
@@ -1225,11 +1232,11 @@ h6 {
   text-transform: uppercase;
   transition: 0.3s;
   color: #fff;
-  background: var(--color-primary);
+  background: #1a1919;
 }
 
 .hero .btn-get-started:hover {
-  background: #2cbc85;
+  background: #b20101;
 }
 
 @media (max-width: 768px) {
@@ -1262,4 +1269,10 @@ h6 {
 
 .footer .credits a {
   color: var(--color-primary);
+}
+
+
+.showreel {
+  text-align: center;
+  margin-bottom: 15%;
 }
